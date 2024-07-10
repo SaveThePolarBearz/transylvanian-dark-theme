@@ -1,16 +1,13 @@
 # transylvanian-dark README
 
-## Working with Markdown
+## Description
+Just a slightly edited version of Dracula High Contrast from evondev mainly tuned for Unity development in C# 
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Evondev Dracula
+* Id: evondev.dracula-high-contrast
+* Description: Dracula Theme High Contrast - base on Dracula Official Theme
+* Version: 0.2.66
+* Publisher: evondev
+* VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=evondev.dracula-high-contrast
 
 **Enjoy!**
