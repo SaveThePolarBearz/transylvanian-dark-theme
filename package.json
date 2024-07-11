@@ -13,7 +13,8 @@
     "dark theme",
     "dracula",
     "transylvania",
-    "transylvanian"
+    "transylvanian",
+    "transylvanian dark"
   ],
   "engines": {
     "vscode": "^1.91.0"
