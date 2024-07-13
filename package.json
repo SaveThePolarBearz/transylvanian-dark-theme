@@ -2,7 +2,7 @@
   "name": "transylvanian-dark",
   "displayName": "Transylvanian Dark",
   "description": "Custom Dracula Theme!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "AaronGhiurau",
   "repository": {
     "type": "git",
@@ -14,7 +14,10 @@
     "dracula",
     "transylvania",
     "transylvanian",
-    "transylvanian dark"
+    "transylvanian dark",
+    "C# theme",
+    "C Sharp theme",
+    "Unity development theme"
   ],
   "engines": {
     "vscode": "^1.91.0"
