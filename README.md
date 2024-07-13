@@ -1,7 +1,8 @@
 # transylvanian-dark README
 
 ## Description
-Just a slightly edited version of Dracula High Contrast from evondev mainly tuned for Unity development in C# 
+Just a slightly edited version of Dracula High Contrast from evondev mainly tuned for Unity development in C#
+Don't expect anything different outside of C#
 
 Evondev Dracula
 * Id: evondev.dracula-high-contrast
