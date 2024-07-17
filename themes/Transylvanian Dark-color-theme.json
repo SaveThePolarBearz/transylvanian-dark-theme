@@ -536,7 +536,6 @@
 		},
 		{
 			"scope": [
-				"entity.name.function",
 				"meta.function-call.generic",
 				"meta.function-call.object",
 				"meta.function-call.php",
@@ -1034,7 +1033,6 @@
 		{
 			"scope": [
 				"entity.other.attribute-name",
-				"entity.name.function",
 				"support.type.media-names.css",
 				"support.type.property-names.css",
 				"variable.other.class.js"
@@ -1325,13 +1323,19 @@
 			}
 		},
 		{
-			"scope": "variable.other.object",
+			"scope": [
+				"variable.other.object",
+				"variable.other.value",
+			],
 			"settings": {
 				"foreground": "#46B8F5"
 			}
 		},
 		{
-			"scope": "entity.name.function",
+			"scope": [
+				"keyword.operator.expression.typeof",
+				"entity.name.function",
+			],
 			"settings": {
 				"foreground": "#FB9100"
 			}
