@@ -11,6 +11,9 @@ Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter
 **Visual Studio Code Marketplace Link**\
 https://marketplace.visualstudio.com/items?itemName=AaronGhiurau.transylvanian-dark
 
+See the
+[changelog here](./CHANGELOG.md)
+
 ## Credits
 **Evondev Dracula**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>ID:</ins> evondev.dracula-high-contrast\
