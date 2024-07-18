@@ -1317,6 +1317,7 @@
 			"scope": [
 				"variable.other.object.property",
 				"variable.other.readwrite",
+				"entity.name.variable.enum-member",
 			],
 			"settings": {
 				"foreground": "#9CDCFE"

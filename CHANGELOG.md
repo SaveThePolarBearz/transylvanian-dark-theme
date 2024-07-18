@@ -9,3 +9,5 @@ v0.0.4
 v0.0.5
 - Made typeof same color as function names
 - Made variable.other.value the same color as variable.other.object
+v0.0.6
+- Made color of enum member declarations the same as variable properties
