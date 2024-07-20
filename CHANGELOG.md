@@ -1,4 +1,6 @@
 # Change Log
+### [0.0.8] - 2024-07-20
+- Made labels italic and mint green
 ### [0.0.7] - 2024-07-19
 - Made cursor color brighter so it stands out more
 - Made light word highlighting grey to avoid making text hard to read

@@ -1341,5 +1341,14 @@
 				"foreground": "#FB9100"
 			}
 		},
+		{
+			"scope": [
+				"entity.name.label",
+			],
+			"settings": {
+				"foreground": "#00ffb3",
+				"fontStyle": "italic"
+			}
+		}
 	],
 }
