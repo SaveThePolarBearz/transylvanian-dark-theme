@@ -1,4 +1,8 @@
 # Change Log
+### [0.0.7] - 2024-07-19
+- Made cursor color brighter so it stands out more
+- Made light word highlighting grey to avoid making text hard to read
+- Made strong word highlighting slightly lighter
 ### [0.0.6] - 2024-07-18
 - Made color of enum member declarations the same as variable properties
 - Organized README and CHANGELOG, added more information as well
