@@ -1,8 +1,7 @@
 # transylvanian-dark README
 
 ## Description
-An edited version of Dracula High Contrast from evondev mainly tuned for Unity development in C# \
-Don't expect things to be polished outside of C#
+An edited version of Dracula High Contrast from evondev mainly tuned for Unity development in C#.
 
 **Installation**\
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.\
@@ -13,6 +12,8 @@ https://marketplace.visualstudio.com/items?itemName=AaronGhiurau.transylvanian-d
 
 See the
 [changelog here](./CHANGELOG.md)
+
+Note: When the extension updates, restart Visual Studio Code for the changes to take effect.
 
 ## Credits
 **Evondev Dracula**\

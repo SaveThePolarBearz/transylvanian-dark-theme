@@ -1,4 +1,6 @@
 # Change Log
+### [0.0.9] - 2024-07-20
+- Changed parameter color to yellow and removed italics to be consistent with local variable declarations
 ### [0.0.8] - 2024-07-20
 - Made labels italic and mint green
 ### [0.0.7] - 2024-07-19

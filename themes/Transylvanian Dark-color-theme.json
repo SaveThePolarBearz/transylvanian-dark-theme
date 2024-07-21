@@ -551,7 +551,7 @@
 		},
 		{
 			"scope": [
-				"entity.name.variable.parameter",
+
 				"meta.at-rule.function variable",
 				"meta.at-rule.mixin variable",
 				"meta.function.arguments variable.other.php",
@@ -1248,6 +1248,7 @@
 			"scope": [
 				"entity.name.variable.local",
 				"local",
+				"entity.name.variable.parameter",
 			],
 			"settings": {
 				"foreground": "#FFFFA6"
@@ -1346,7 +1347,7 @@
 				"entity.name.label",
 			],
 			"settings": {
-				"foreground": "#00ffb3",
+				"foreground": "#9FFBBF",
 				"fontStyle": "italic"
 			}
 		}
