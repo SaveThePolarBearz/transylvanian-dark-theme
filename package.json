@@ -1,0 +1,48 @@
+{
+	"name": "transylvanian-dark",
+	"displayName": "Transylvanian Dark",
+	"description": "Custom Dracula Themes!",
+	"version": "0.1.0",
+	"publisher": "AaronGhiurau",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SaveThePolarBearz/transylvanian-dark-theme"
+	},
+	"keywords": [
+		"theme",
+		"dark theme",
+		"dracula",
+		"transylvania",
+		"transylvanian",
+		"transylvanian dark",
+		"C# theme",
+		"C Sharp theme",
+		"Unity development theme"
+	],
+	"engines": {
+		"vscode": "^1.91.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Transylvanian Dark Semantic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Transylvanian-Dark-Semantic-color-theme.json"
+			},
+			{
+				"label": "Transylvanian Dark (Old)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Transylvanian-Dark-Old-color-theme.json"
+			}
+		],
+		"configurationDefaults": {
+			"editor.guides.bracketPairs": "active",
+			"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+			"editor.guides.highlightActiveBracketPair": true,
+			"editor.bracketPairColorization.enabled": true
+		}
+	}
+}

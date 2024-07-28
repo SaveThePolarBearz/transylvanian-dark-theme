@@ -1,0 +1,8 @@
+node_modules
+*.vsix
+*.code-workspace
+**/bin/
+**/*.csproj
+*.sln
+/packages/
+**/obj/
