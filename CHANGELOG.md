@@ -1,5 +1,5 @@
 # Change Log
-### [0.1.0] - 2024-07-26
+### [0.1.0] - 2024-07-27
 - Created new theme: Transylvanian Dark Semantic
 	- Added support for C#, C++, C, JSON
 - Added description of both themes in README
