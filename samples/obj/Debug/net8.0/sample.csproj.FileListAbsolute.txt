@@ -1,0 +1,15 @@
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/bin/Debug/net8.0/sample
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/bin/Debug/net8.0/sample.deps.json
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/bin/Debug/net8.0/sample.runtimeconfig.json
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/bin/Debug/net8.0/sample.dll
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/bin/Debug/net8.0/sample.pdb
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.GeneratedMSBuildEditorConfig.editorconfig
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.AssemblyInfoInputs.cache
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.AssemblyInfo.cs
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.csproj.CoreCompileInputs.cache
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.sourcelink.json
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.dll
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/refint/sample.dll
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.pdb
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/sample.genruntimeconfig.cache
+/home/aaronghiurau/Documents/Programs/transylvanian-dark-theme/samples/obj/Debug/net8.0/ref/sample.dll

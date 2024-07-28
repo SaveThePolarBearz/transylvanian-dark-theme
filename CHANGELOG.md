@@ -1,4 +1,11 @@
 # Change Log
+### [0.1.0] - 2024-07-26
+- Created new theme: Transylvanian Dark Semantic
+	- Added support for C#, C++, C, JSON
+- Added description of both themes in README
+- Created sample files for testing themes
+- Enables rainbow brackets
+## Changes below refer to Transylvanian Dark (Old)
 ### [0.0.9] - 2024-07-20
 - Changed parameter color to yellow and removed italics to be consistent with local variable declarations
 ### [0.0.8] - 2024-07-20

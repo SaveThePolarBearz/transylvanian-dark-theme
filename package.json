@@ -1,8 +1,8 @@
 {
 	"name": "transylvanian-dark",
 	"displayName": "Transylvanian Dark",
-	"description": "Custom Dracula Theme!",
-	"version": "0.0.9",
+	"description": "Custom Dracula Themes!",
+	"version": "0.1.0",
 	"publisher": "AaronGhiurau",
 	"repository": {
 		"type": "git",
@@ -28,10 +28,21 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Transylvanian Dark",
+				"label": "Transylvanian Dark Semantic",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Transylvanian Dark-color-theme.json"
+				"path": "./themes/Transylvanian-Dark-Semantic-color-theme.json"
+			},
+			{
+				"label": "Transylvanian Dark (Old)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Transylvanian-Dark-Old-color-theme.json"
 			}
-		]
+		],
+		"configurationDefaults": {
+			"editor.guides.bracketPairs": "active",
+			"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+			"editor.guides.highlightActiveBracketPair": true,
+			"editor.bracketPairColorization.enabled": true
+		}
 	}
 }
