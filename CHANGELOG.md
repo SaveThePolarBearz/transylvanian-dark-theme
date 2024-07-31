@@ -1,4 +1,7 @@
 # Change Log
+### [0.1.1] - 2024-07-31
+- Added support for Bash/Console
+- Added sample bash file
 ### [0.1.0] - 2024-07-27
 - Created new theme: Transylvanian Dark Semantic
 	- Added support for C#, C++, C, JSON

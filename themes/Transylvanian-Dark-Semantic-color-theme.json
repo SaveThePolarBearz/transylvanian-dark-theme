@@ -1045,33 +1045,18 @@
 		},
 		{
 			"scope": [
-				"variable.other.property.js",
-				"variable.other.property.tsx",
-				"variable.other.property.static.js",
-				"JSXNested",
-				"variable.other.readwrite.js",
-				"punctuation.semi-colon",
-				"punctuation.colon",
-				"punctuation.definition.tag"
-			],
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"scope": [
 				"variable.graphql",
 				"string",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"meta.attribute-selector.scss",
-				"meta.attribute-selector.css"
+				"meta.attribute-selector.css",
+				"meta.statement.command"
 			],
 			"settings": {
 				"foreground": "#EAC394"
 			}
 		},
-
 		{
 			"scope": [
 				"variable.parameter",
@@ -1202,16 +1187,6 @@
 		},
 		{
 			"scope": [
-				"meta.paragraph.markdown",
-				"text.html.derivative",
-				"JSXNested"
-			],
-			"settings": {
-				"foreground": "#FBF3E8"
-			}
-		},
-		{
-			"scope": [
 				"support.function"
 			],
 			"settings": {
@@ -1245,10 +1220,23 @@
 				"keyword.control.default",
 				"keyword.other.typedef",
 				"keyword.control.c",
-				"keyword.control.directive.conditional"
+				"keyword.control.directive.conditional",
+				"keyword.control.then",
+				"keyword.control.else",
+				"keyword.control.fi",
+				"keyword.control.for",
+				"keyword.control.in",
+				"keyword.control.do",
+				"keyword.control.done",
+				"keyword.control.shell",
+				"keyword.control.esac",
+				"keyword.control.elif",
+				"punctuation.definition.string.heredoc.delimiter",
+				"punctuation.separator.statement.background",
+				"meta.scope.logical-expression"
 			],
 			"settings": {
-				"foreground": "#FF6BCB"
+				"foreground": "#FF79C6"
 			}
 		},
 		{
@@ -1256,7 +1244,9 @@
 				"entity.name.variable.field",
 				"meta.body.class",
 				"variable.object.c",
-				"meta.block.c"
+				"meta.block.c",
+				"punctuation.definition.subshell.single",
+				"punctuation.definition.variable"
 			],
 			"settings": {
 				"foreground": "#FFE056"
@@ -1267,6 +1257,7 @@
 				"entity.name.variable.local",
 				"local",
 				"meta.bracket.square.access",
+				"variable.other.assignment"
 			],
 			"settings": {
 				"foreground": "#FFFFA6"
@@ -1291,7 +1282,7 @@
 			"scope": [
 				"keyword.operator",
 				"punctuation.definition.typeparameters",
-				"punctuation.separator.namespace"
+				"punctuation.separator.namespace",
 			],
 			"settings": {
 				"foreground": "#FD6F72"
@@ -1303,6 +1294,17 @@
 				"punctuation.terminator.statement",
 				"punctuation.separator.array.json.comments",
 				"punctuation.separator.dictionary.pair.json.comments",
+				"variable.other.property.js",
+				"variable.other.property.tsx",
+				"variable.other.property.static.js",
+				"JSXNested",
+				"variable.other.readwrite.js",
+				"punctuation.semi-colon",
+				"punctuation.colon",
+				"punctuation.definition.tag",
+				"meta.paragraph.markdown",
+				"text.html.derivative",
+				"JSXNested"
 			],
 			"settings": {
 				"foreground": "#f8f8f2"
@@ -1406,6 +1408,7 @@
 				"storage.type.operator",
 				"storage.type.built-in.primitive",
 				"storage.type.built-in",
+				"storage.type.function",
 				"entity.name.function.preprocessor.c"
 			],
 			"settings": {
