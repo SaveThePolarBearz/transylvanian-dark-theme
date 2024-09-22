@@ -1,4 +1,6 @@
 # Change Log
+### [0.1.3] - 2024-09-21
+- Added additional support for general C++ usage
 ### [0.1.2] - 2024-07-31
 - Added additional keywords
 ### [0.1.1] - 2024-07-31
