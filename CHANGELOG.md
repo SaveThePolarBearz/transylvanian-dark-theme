@@ -1,5 +1,5 @@
 # Change Log
-### [0.1.4] - 2024-09-21
+### [0.1.4] - 2024-09-23
 - Even more C++ support, mainly making operators consistent
 - Fixed class member variables not being colored when accessed
 - Made color operator in C# red to match C++
