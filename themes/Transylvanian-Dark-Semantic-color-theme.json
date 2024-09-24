@@ -1111,7 +1111,8 @@
 				"support.function.transform.css",
 				"constant.language.pseudo.css",
 				"constant.language.pseudo.prefixed.css",
-				"entity.name.function.scss"
+				"entity.name.function.scss",
+				"keyword.other.unit.suffix.floating-point.cpp"
 			],
 			"settings": {
 				"foreground": "#BD93F9"
@@ -1236,7 +1237,8 @@
 				"meta.scope.logical-expression",
 				"keyword.other.using.directive.cpp",
 				"keyword.control.return.cpp",
-				"keyword.control.while.cpp"
+				"keyword.control.while.cpp",
+				"keyword.control.break.cpp",
 			],
 			"settings": {
 				"foreground": "#FF79C6"
@@ -1249,7 +1251,8 @@
 				"variable.object.c",
 				"meta.block.c",
 				"punctuation.definition.subshell.single",
-				"punctuation.definition.variable"
+				"punctuation.definition.variable",
+				"meta.body.function.definition.cpp"
 			],
 			"settings": {
 				"foreground": "#FFE056"
@@ -1287,7 +1290,16 @@
 				"punctuation.definition.typeparameters",
 				"punctuation.separator.namespace",
 				"punctuation.section.angle-brackets.end.template.call.cpp",
-				"punctuation.section.angle-brackets.begin.template.call.cpp"
+				"punctuation.section.angle-brackets.begin.template.call.cpp",
+				"punctuation.separator.colon.cs",
+				"punctuation.separator.initializers.cpp",
+				"punctuation.separator.scope-resolution.cpp",
+				"punctuation.separator.scope-resolution.parameter.cpp",
+				"punctuation.separator.dot-access.cpp",
+				"storage.modifier.reference.cpp",
+				"storage.modifier.pointer.cpp",
+				"punctuation.separator.pointer-access.cpp",
+				"punctuation.separator.colon.range-based.cpp"
 			],
 			"settings": {
 				"foreground": "#FD6F72"
@@ -1309,7 +1321,8 @@
 				"punctuation.definition.tag",
 				"meta.paragraph.markdown",
 				"text.html.derivative",
-				"JSXNested"
+				"JSXNested",
+				"punctuation.separator.delimiter.comma.cpp"
 			],
 			"settings": {
 				"foreground": "#f8f8f2"
@@ -1368,7 +1381,8 @@
 			"scope": [
 				"keyword.operator.expression.typeof",
 				"entity.name.function",
-				"keyword.operator.expression.new"
+				"keyword.operator.expression.new",
+				"keyword.operator.sizeof.cpp"
 			],
 			"settings": {
 				"foreground": "#FB9100"
@@ -1414,7 +1428,7 @@
 				"storage.type.built-in.primitive",
 				"storage.type.built-in",
 				"storage.type.function",
-				"entity.name.function.preprocessor.c"
+				"entity.name.function.preprocessor.c",
 			],
 			"settings": {
 				"foreground": "#569CD6",

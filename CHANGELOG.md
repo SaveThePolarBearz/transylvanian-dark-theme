@@ -1,4 +1,7 @@
 # Change Log
+### [0.1.4] - 2024-09-21
+- Even more C++ support, mainly making operators consistent
+- Made color operator in C# red to match C++
 ### [0.1.3] - 2024-09-21
 - Added additional support for general C++ usage
 ### [0.1.2] - 2024-07-31
