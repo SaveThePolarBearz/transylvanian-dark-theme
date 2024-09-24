@@ -1299,7 +1299,8 @@
 				"storage.modifier.reference.cpp",
 				"storage.modifier.pointer.cpp",
 				"punctuation.separator.pointer-access.cpp",
-				"punctuation.separator.colon.range-based.cpp"
+				"punctuation.separator.colon.range-based.cpp",
+				"meta.function.definition.cpp"
 			],
 			"settings": {
 				"foreground": "#FD6F72"
@@ -1322,7 +1323,8 @@
 				"meta.paragraph.markdown",
 				"text.html.derivative",
 				"JSXNested",
-				"punctuation.separator.delimiter.comma.cpp"
+				"punctuation.separator.delimiter.comma.cpp",
+				"punctuation.separator.delimiter.comma.template.argument.cpp"
 			],
 			"settings": {
 				"foreground": "#f8f8f2"

@@ -1,4 +1,7 @@
 # Change Log
+### [0.1.5] - 2024-09-23
+- Fixed scope operator for C++ not being red in certain situations
+- Fixed comma being yellow instead of white in certain situations in C++
 ### [0.1.4] - 2024-09-23
 - Even more C++ support, mainly making operators consistent
 - Fixed class member variables not being colored when accessed
