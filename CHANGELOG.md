@@ -1,5 +1,5 @@
 # Change Log
-### [0.1.6] - 2024-09-25
+### [0.1.6] - 2024-09-27
 - Fixed colon being incorrect color for switch cases and access modifiers in C++
 - Added colors for access modifier when inheriting class in C++
 - In C++ added color for define and endif
