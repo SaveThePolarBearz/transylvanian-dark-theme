@@ -1239,6 +1239,12 @@
 				"keyword.control.return.cpp",
 				"keyword.control.while.cpp",
 				"keyword.control.break.cpp",
+				"storage.type.modifier.access.public.cpp",
+				"storage.type.modifier.access.private.cpp",
+				"storage.type.modifier.access.protected.cpp",
+				"punctuation.definition.directive.cpp",
+				"keyword.control.directive.define.cpp",
+				"keyword.control.directive.endif.cpp",
 			],
 			"settings": {
 				"foreground": "#FF79C6"
@@ -1324,7 +1330,9 @@
 				"text.html.derivative",
 				"JSXNested",
 				"punctuation.separator.delimiter.comma.cpp",
-				"punctuation.separator.delimiter.comma.template.argument.cpp"
+				"punctuation.separator.delimiter.comma.template.argument.cpp",
+				"punctuation.separator.colon.case",
+				"punctuation.separator.colon.access.control.cpp"
 			],
 			"settings": {
 				"foreground": "#f8f8f2"
