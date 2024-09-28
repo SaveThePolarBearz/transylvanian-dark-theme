@@ -1,4 +1,8 @@
 # Change Log
+### [0.1.6] - 2024-09-25
+- Fixed colon being incorrect color for switch cases and access modifiers in C++
+- Added colors for access modifier when inheriting class in C++
+- In C++ added color for define and endif
 ### [0.1.5] - 2024-09-23
 - Fixed scope operator for C++ not being red in certain situations
 - Fixed comma being yellow instead of white in certain situations in C++
