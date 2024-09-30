@@ -1245,6 +1245,7 @@
 				"punctuation.definition.directive.cpp",
 				"keyword.control.directive.define.cpp",
 				"keyword.control.directive.endif.cpp",
+				"keyword.control.continue.cpp"
 			],
 			"settings": {
 				"foreground": "#FF79C6"
@@ -1306,7 +1307,8 @@
 				"storage.modifier.pointer.cpp",
 				"punctuation.separator.pointer-access.cpp",
 				"punctuation.separator.colon.range-based.cpp",
-				"meta.function.definition.cpp"
+				"meta.function.definition.cpp",
+				"punctuation.separator.colon.inheritance"
 			],
 			"settings": {
 				"foreground": "#FD6F72"

@@ -1,4 +1,8 @@
 # Change Log
+### [0.1.7] - 2024-09-30
+- Corrected color for inheritance colon in C++ (made red)
+- Corrected color for continue in C++ (made purple)
+- Added continue lines in sample files
 ### [0.1.6] - 2024-09-27
 - Fixed colon being incorrect color for switch cases and access modifiers in C++
 - Added colors for access modifier when inheriting class in C++

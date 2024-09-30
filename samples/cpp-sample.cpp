@@ -111,7 +111,10 @@ namespace MyThemeTest
 
         // Loops
         for (int i = 0; i < sizeof(myArray) / sizeof(myArray[0]); ++i) {
-            std::cout << myArray[i] << std::endl;
+			if (i == 7)
+				continue;
+            
+			std::cout << myArray[i] << std::endl;
         }
 
         for (const auto& item : myVector) {

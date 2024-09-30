@@ -117,6 +117,9 @@ namespace MyThemeTest
             // Loops
             for (int i = 0; i < myArray.Length; i++)
             {
+				if (i == 7)
+					continue;
+					
                 Console.WriteLine(myArray[i]);
             }
 
