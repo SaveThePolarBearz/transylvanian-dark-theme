@@ -594,15 +594,6 @@
 		},
 		{
 			"scope": [
-				"keyword.control.new",
-				"keyword.operator.new"
-			],
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
 				"meta.selector"
 			],
 			"settings": {
@@ -773,7 +764,7 @@
 			],
 			"settings": {
 				"foreground": "#8BE9FD",
-				"fontStyle": "italic"
+				//"fontStyle": "italic"
 			}
 		},
 		{
@@ -1245,9 +1236,14 @@
 				"punctuation.definition.directive.cpp",
 				"keyword.control.directive.define.cpp",
 				"keyword.control.directive.endif.cpp",
-				"keyword.control.continue.cpp"
+				"keyword.control.continue.cpp",
+				"keyword.other.import.java",
+				"keyword.control.java",
+				"keyword.control.throw.java",
+				"keyword.control.try.java",
+				"keyword.control.catch.java",
 			],
-			"settings": {
+			"settings": { // c magenta
 				"foreground": "#FF79C6"
 			}
 		},
@@ -1259,9 +1255,11 @@
 				"meta.block.c",
 				"punctuation.definition.subshell.single",
 				"punctuation.definition.variable",
-				"meta.body.function.definition.cpp"
+				"meta.body.function.definition.cpp",
+				"variable.other.definition.java",
+				"meta.method.body.java",
 			],
-			"settings": {
+			"settings": { // c dark yellow
 				"foreground": "#FFE056"
 			}
 		},
@@ -1270,15 +1268,15 @@
 				"entity.name.variable.local",
 				"local",
 				"meta.bracket.square.access",
-				"variable.other.assignment"
+				"variable.other.assignment",
 			],
-			"settings": {
+			"settings": { // c light yellow
 				"foreground": "#FFFFA6"
 			}
 		},
 		{
 			"scope": "variable.parameter",
-			"settings": {
+			"settings": { // c pink
 				"foreground": "#FCBEE4"
 			}
 		},
@@ -1287,7 +1285,7 @@
 				"variable.property",
 				"entity.name.variable.property",
 			],
-			"settings": {
+			"settings": { // light green 1
 				"foreground": "#9FFBBF"
 			}
 		},
@@ -1308,9 +1306,13 @@
 				"punctuation.separator.pointer-access.cpp",
 				"punctuation.separator.colon.range-based.cpp",
 				"meta.function.definition.cpp",
-				"punctuation.separator.colon.inheritance"
+				"punctuation.separator.colon.inheritance",
+				"punctuation.separator.java",
+				"keyword.control.ternary.java",
+				"punctuation.separator.period.java",
+				"punctuation.bracket.angle.java",
 			],
-			"settings": {
+			"settings": { // c red
 				"foreground": "#FD6F72"
 			}
 		},
@@ -1334,9 +1336,11 @@
 				"punctuation.separator.delimiter.comma.cpp",
 				"punctuation.separator.delimiter.comma.template.argument.cpp",
 				"punctuation.separator.colon.case",
-				"punctuation.separator.colon.access.control.cpp"
+				"punctuation.separator.colon.access.control.cpp",
+				"punctuation.terminator.java",
+				"punctuation.separator.delimiter.java",
 			],
-			"settings": {
+			"settings": { // c white
 				"foreground": "#f8f8f2"
 			}
 		},
@@ -1345,7 +1349,7 @@
 				"comment",
 				"punctuation.definition.comment",
 			],
-			"settings": {
+			"settings": { // c dark purple
 				"foreground": "#8164b6"
 			}
 		},
@@ -1362,7 +1366,7 @@
 				"meta.preprocessor.include.c"
 			//	"keyword.type",
 			],
-			"settings": {
+			"settings": { // c teal
 				"foreground": "#4EC9B0"
 			}
 		},
@@ -1376,7 +1380,7 @@
 				"source.c",
 				"meta.function-call.c"
 			],
-			"settings": {
+			"settings": { // c light blue
 				"foreground": "#9CDCFE"
 			}
 		},
@@ -1385,7 +1389,7 @@
 				"variable.other.object",
 				//"variable.other.value",
 			],
-			"settings": {
+			"settings": { // c dark blue 1
 				"foreground": "#46B8F5"
 			}
 		},
@@ -1394,9 +1398,10 @@
 				"keyword.operator.expression.typeof",
 				"entity.name.function",
 				"keyword.operator.expression.new",
-				"keyword.operator.sizeof.cpp"
+				"keyword.operator.sizeof.cpp",
+				"keyword.control.new.java",
 			],
-			"settings": {
+			"settings": { // c orange
 				"foreground": "#FB9100"
 			}
 		},
@@ -1404,7 +1409,7 @@
 			"scope": [
 				"entity.name.label",
 			],
-			"settings": {
+			"settings": { // c light green
 				"foreground": "#9FFBBF",
 				"fontStyle": "italic"
 			}
@@ -1414,7 +1419,7 @@
 				"variable.other.value",
 				"entity.name.variable.parameter",
 			],
-			"settings": {
+			"settings": { // c pink
 				"foreground": "#FCBEE4",
 			}
 		},
@@ -1441,68 +1446,66 @@
 				"storage.type.built-in",
 				"storage.type.function",
 				"entity.name.function.preprocessor.c",
+				"storage.type.primitive.java"
 			],
-			"settings": {
+			"settings": { // c dark blue 2
 				"foreground": "#569CD6",
 			}
 		},
 	],
 	"semanticTokenColors": {
-		"enumMember": {
+		"enumMember": { // c light blue
 			"foreground": "#9CDCFE",
 		},
-		"field": {
+		"field": { // c dark yellow
 			"foreground": "#f5db46",
 		},
-		"variable.global": {
+		"variable.global": { // c dark yellow
 			"foreground": "#f5db46",
 		},
-		// "property": {
-		// 	"foreground": "#FFFFA6",
-		// },
-		"variable": {
+		"property.static": { // c dark yellow
+			"foreground": "#f5db46",
+		},
+		"variable": { // c light yellow
 			"foreground": "#FFFFA6",
 		},
-		"parameter": {
+		"parameter": { // c pink
 			"foreground": "#FCBEE4",
 		},
-		"controlKeyword": {
+		"controlKeyword": { // c magenta
 			"foreground": "#FF79C6"
 		},
-		// "keyword": {
-		// 	"foreground": "#46B8F5"
-		// },
-		"struct": {
+		"struct": { // c teal
 			"foreground": "#4EC9B0"
 		},
-		"class": {
+		"class": { // c teal
 			"foreground": "#4EC9B0"
 		},
-		"namespace": {
+		"namespace": { // c teal
 			"foreground": "#4EC9B0"
 		},
-		"label": {
+		"label": { // c light green
 			"foreground": "#9FFBBF"
 		},
-		"comment": {
+		"comment": { // c dark purple
 			"foreground": "#7551b8"
 		},
-		"method": {
+		"method": { // c orange
 			"foreground": "#FB9100"
 		},
-		"operator": {
+		"operator": { // c red
 			"foreground": "#FD6F72"
 		},
-		"operatorOverloaded": {
+		"operatorOverloaded": { // c red
 			"foreground": "#FD6F72"
 		},
-		"operatorOverload": {
+		"operatorOverload": { // c red
 			"foreground": "#FD6F72"
 		},
-		"memberOperatorOverload": {
+		"memberOperatorOverload": { // c red
 			"foreground": "#FD6F72"
 		},
-		"number": {
+		"number": { // c light purple
 			"foreground": "#9A86FD"
 		},
 	}

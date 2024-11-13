@@ -1,16 +1,17 @@
 # transylvanian-dark README
 
 ## Description
-An edited version of Dracula High Contrast from evondev. This is only tuned for a couple languages.
+An highly edited version of Dracula High Contrast from evondev. This is only tuned for a couple languages.
 There are 2 versions:\
 **Transylvanian Dark Semantic**: 
+- Recommended
 - Uses semantic highlighting so global, local, and parameter variables are different colors
 - More yellow tones
-- Designed for C#, C++, C, and JSON
+- Designed for C#, C++, C, Java, and JSON
 	- Sample files can be [found here](/samples/). Generated with the help of ChatGPT
 
 **Transylvanian Dark (Old)**:
-- No longer supported
+- Deprecated
 - Only designed for C#
 - The first theme from this extension
 - Does not use semantic highlighting so variables are not represented as well

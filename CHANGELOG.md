@@ -1,4 +1,8 @@
 # Change Log
+### [0.1.8] - 2024-11-13
+- Made static properties dark yellow so that initializing a static variable in c++ is properly colored, may be reverted if it creates other problems
+- Added support for Java
+- Added comments to theme's json file for searching for certain colors
 ### [0.1.7] - 2024-09-30
 - Corrected color for inheritance colon in C++ (made red)
 - Corrected color for continue in C++ (made purple)
