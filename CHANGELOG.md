@@ -1,4 +1,8 @@
 # Change Log
+### [0.1.9] - 2025-03-03
+- Made 'package' in java magenta
+- Fixed booleans not having color
+- Made 'delegate' magenta
 ### [0.1.8] - 2024-11-13
 - Made static properties dark yellow so that initializing a static variable in c++ is properly colored, may be reverted if it creates other problems
 - Added support for Java

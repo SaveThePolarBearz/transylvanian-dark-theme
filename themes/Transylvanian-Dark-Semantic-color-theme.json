@@ -503,11 +503,17 @@
 		},
 		{
 			"scope": [
-				"constant",
-				"variable.other.constant"
+				"constant.c",
+				"variable.other.constant",
+				"entity.name.other.preprocessor.macro.include.cpp",
+				"entity.name.function.preprocessor.cpp",
+				"meta.preprocessor.include.c",
+				"constant.numeric.decimal.c",
+				"constant.language.c",
+				"constant.language.boolean",
 			],
 			"settings": {
-				"foreground": "#BD93F9"
+				"foreground": "#BD93F9" // c light purple
 			}
 		},
 		{
@@ -1051,7 +1057,7 @@
 		{
 			"scope": [
 				"variable.parameter",
-				"variable.other.constant",
+				//"variable.other.constant",
 				"variable.other.constant.ts",
 				"variable.other.constant.tsx",
 				"support.variable",
@@ -1242,6 +1248,9 @@
 				"keyword.control.throw.java",
 				"keyword.control.try.java",
 				"keyword.control.catch.java",
+				"keyword.other.package.java",
+				"keyword.control.directive.define.c",
+				"storage.type.delegate",
 			],
 			"settings": { // c magenta
 				"foreground": "#FF79C6"
@@ -1258,6 +1267,7 @@
 				"meta.body.function.definition.cpp",
 				"variable.other.definition.java",
 				"meta.method.body.java",
+				"meta.preprocessor.macro.c",
 			],
 			"settings": { // c dark yellow
 				"foreground": "#FFE056"
@@ -1311,6 +1321,8 @@
 				"keyword.control.ternary.java",
 				"punctuation.separator.period.java",
 				"punctuation.bracket.angle.java",
+				"punctuation.separator.pointer-access.c",
+				"punctuation.separator.dot-access.c",
 			],
 			"settings": { // c red
 				"foreground": "#FD6F72"
@@ -1339,6 +1351,7 @@
 				"punctuation.separator.colon.access.control.cpp",
 				"punctuation.terminator.java",
 				"punctuation.separator.delimiter.java",
+				"punctuation.separator.delimiter.c",
 			],
 			"settings": { // c white
 				"foreground": "#f8f8f2"
@@ -1363,7 +1376,7 @@
 				"entity.name.type.alias",
 				"entity.name.type.class",
 				"keyword.operator.expression.new",
-				"meta.preprocessor.include.c"
+			//	"meta.preprocessor.include.c"
 			//	"keyword.type",
 			],
 			"settings": { // c teal
@@ -1388,6 +1401,11 @@
 			"scope": [
 				"variable.other.object",
 				//"variable.other.value",
+				//"entity.name.function.preprocessor.cpp" //constant
+// variable.other.constant
+// entity.name.other.preprocessor.macro.include.cpp
+// entity.name.function.preprocessor.cpp
+
 			],
 			"settings": { // c dark blue 1
 				"foreground": "#46B8F5"
@@ -1396,7 +1414,8 @@
 		{
 			"scope": [
 				"keyword.operator.expression.typeof",
-				"entity.name.function",
+				//"entity.name.function",
+				"entity.name.function.c",
 				"keyword.operator.expression.new",
 				"keyword.operator.sizeof.cpp",
 				"keyword.control.new.java",
@@ -1445,7 +1464,6 @@
 				"storage.type.built-in.primitive",
 				"storage.type.built-in",
 				"storage.type.function",
-				"entity.name.function.preprocessor.c",
 				"storage.type.primitive.java"
 			],
 			"settings": { // c dark blue 2

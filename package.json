@@ -2,7 +2,7 @@
 	"name": "transylvanian-dark",
 	"displayName": "Transylvanian Dark",
 	"description": "Custom Dracula Themes!",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"publisher": "AaronGhiurau",
 	"repository": {
 		"type": "git",
@@ -46,17 +46,13 @@
 			"editor.guides.bracketPairs": "active",
 			"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 			"editor.guides.highlightActiveBracketPair": true,
-			"editor.bracketPairColorization.enabled": true
-		}
-	},
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"scope": "meta.body.function.definition.cpp",
-				"settings": {
-					"foreground": "#FFA500"
-				}
+			"editor.bracketPairColorization.enabled": true,
+			"[c]": {
+				"editor.semanticHighlighting.enabled": false
+			},
+			"[cpp]": {
+				"editor.semanticHighlighting.enabled": false
 			}
-		]
+		}
 	}
 }
