@@ -7,7 +7,7 @@ There are 2 versions:\
 - Recommended
 - Uses semantic highlighting so global, local, and parameter variables are different colors
 - More yellow tones
-- Designed for C#, C++, C, Java, and JSON
+- Designed for C#, C++, C, Java, Shell and JSON
 	- Sample files can be [found here](/samples/). Generated with the help of ChatGPT
 
 **Transylvanian Dark (Old)**:

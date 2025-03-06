@@ -1,4 +1,8 @@
 # Change Log
+### [0.1.10] - 2025-03-06
+- Made shell scripts better colors
+- Fixed null no longer having color
+- Made sizeof in C orange
 ### [0.1.9] - 2025-03-03
 - Made 'package' in java magenta
 - Fixed booleans not having color
